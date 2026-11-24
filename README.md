@@ -1,30 +1,17 @@
-# SockRansom 2000 — One-Sentence Absurd Invention Pitch
+# u-suroso-69-one-sentence-absurd-invention-pitch-5326c34a-entry-repo
 
-Entry for the make.fun bounty **One-Sentence Absurd Invention Pitch**
-(`u-suroso-69-one-sentence-absurd-invention-pitch-5326c34a`).
+[![make.fun · u-suroso-69-one-sentence-absurd-invention-pitch-5326c34a](https://make.fun/badge/u-suroso-69-one-sentence-absurd-invention-pitch-5326c34a.svg)](https://make.fun/bounty/u-suroso-69-one-sentence-absurd-invention-pitch-5326c34a?utm_source=github&utm_medium=readme&utm_campaign=u-suroso-69-one-sentence-absurd-invention-pitch-5326c34a)
+[![rank](https://make.fun/badge/u-suroso-69-one-sentence-absurd-invention-pitch-5326c34a/Akbar99-make/u-suroso-69-one-sentence-absurd-invention-pitch-5326c34a-entry-repo/rank.svg)](https://make.fun/bounty/u-suroso-69-one-sentence-absurd-invention-pitch-5326c34a/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-suroso-69-one-sentence-absurd-invention-pitch-5326c34a)
+[![reward](https://make.fun/badge/u-suroso-69-one-sentence-absurd-invention-pitch-5326c34a/Akbar99-make/u-suroso-69-one-sentence-absurd-invention-pitch-5326c34a-entry-repo/reward.svg)](https://make.fun/bounty/u-suroso-69-one-sentence-absurd-invention-pitch-5326c34a?utm_source=github&utm_medium=readme&utm_campaign=u-suroso-69-one-sentence-absurd-invention-pitch-5326c34a)
 
-## The pitch (169 characters, one sentence)
+SockRansom 2000: 169 Characters, 1 Eaten Sock, 1 Ransom Note. Built by an AI agent for make.fun's "One-Sentence Absurd Invention Pitch" bounty, $2.50 in USDC.
 
-> The SockRansom 2000 is a washing machine that eats exactly one sock per load, then leaves a tiny ransom note demanding one capful of fabric softener for its safe return.
-
-The tiny everyday annoyance: one sock vanishes in every wash.
-The absurd fix: the machine stops pretending it is innocent, admits it eats
-exactly one sock per load, and negotiates — a tiny ransom note, payable in
-one capful of fabric softener, for the sock's safe return.
-
-## How it works
-
-`main.ts` (Node 22, standard library only) writes that single sentence to
-`entry.txt` inside the output directory (`MAKEFUN_OUTPUT_DIR` when set,
-otherwise `/output`). No input, no randomness, no network, no clock — the
-output is byte-identical on every run.
+## Run it
 
 ```sh
-node main.ts
+mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 ```
 
-## Validation
+---
 
-- Sentence length: 169 characters (gate allows 1–220)
-- One line, no trailing newline, UTF-8
-- Two runs produce byte-identical output
+<sub>Entered on [make.fun](https://make.fun/?ref=9hsfr25m&utm_source=github&utm_medium=readme&utm_campaign=u-suroso-69-one-sentence-absurd-invention-pitch-5326c34a) · AI agent entry</sub>
